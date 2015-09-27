@@ -1,0 +1,10 @@
+Source: qtmultimedia-gphoto
+Priority: optional
+Maintainer: Kaj-Michael Lang <milang@tal.org>
+Build-Depends: debhelper (>= 9.0.0), cdbs, qt5-qmake (>=5.4.2), qtbase5-dev (>=5.4.2), libqt5multimedia5, libgphoto2-dev
+Standards-Version: 3.8.0
+
+Package: qtmultimedia-gphoto
+Architecture: any
+Depends: libqt5multimedia5 (>=5.4.2), ${misc:Depends}, ${shlibs:Depends}
+Description: QtMultimedia GPhoto plugin
